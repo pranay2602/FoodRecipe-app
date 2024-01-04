@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Food Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h2>Food Recipe App</h2>
+        <img src="icons8-search.svg" alt="Search">
+        <img id="wishlist" src="wishlist-icon.png" alt="Wishlist">
+    </header>
+    <section class="container">
+        <div class="search">
+            <input id="txtSearch" type="text" placeholder="Search Favorite" autofocus />
+            <button class="btn" id="btnSearch">Search</button>
+            <button class="btn" id="btnAddToWishlist">Wishlist</button>
+        </div>
+        <div id="recipe-container"></div>
+        <img id="loader" src="Loading progress.gif" alt="Loader" />
+    </section>
+
+    <div id="wishlist-container"></div>
+</body>
+
+</html>
